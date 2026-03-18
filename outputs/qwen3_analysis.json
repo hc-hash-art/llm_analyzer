@@ -1,0 +1,634 @@
+{
+  "entry_files": [
+    "/home/hc/Qwen3/examples/demo/cli_demo.py"
+  ],
+  "entry_mode": "forward",
+  "entry_symbol_ids": [
+    "examples.demo.cli_demo:main"
+  ],
+  "entry_fallback_used": true,
+  "op_chain_only": true,
+  "symbols": {
+    "examples.demo.cli_demo:_setup_readline": {
+      "module": "examples.demo.cli_demo",
+      "qualname": "_setup_readline",
+      "file_path": "/home/hc/Qwen3/examples/demo/cli_demo.py",
+      "line_start": 60,
+      "line_end": 80,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "examples.demo.cli_demo:_load_model_tokenizer": {
+      "module": "examples.demo.cli_demo",
+      "qualname": "_load_model_tokenizer",
+      "file_path": "/home/hc/Qwen3/examples/demo/cli_demo.py",
+      "line_start": 83,
+      "line_end": 102,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "examples.demo.cli_demo:_gc": {
+      "module": "examples.demo.cli_demo",
+      "qualname": "_gc",
+      "file_path": "/home/hc/Qwen3/examples/demo/cli_demo.py",
+      "line_start": 105,
+      "line_end": 110,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "examples.demo.cli_demo:_clear_screen": {
+      "module": "examples.demo.cli_demo",
+      "qualname": "_clear_screen",
+      "file_path": "/home/hc/Qwen3/examples/demo/cli_demo.py",
+      "line_start": 113,
+      "line_end": 117,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "examples.demo.cli_demo:_print_history": {
+      "module": "examples.demo.cli_demo",
+      "qualname": "_print_history",
+      "file_path": "/home/hc/Qwen3/examples/demo/cli_demo.py",
+      "line_start": 120,
+      "line_end": 126,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "examples.demo.cli_demo:_get_input": {
+      "module": "examples.demo.cli_demo",
+      "qualname": "_get_input",
+      "file_path": "/home/hc/Qwen3/examples/demo/cli_demo.py",
+      "line_start": 129,
+      "line_end": 140,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "examples.demo.cli_demo:_chat_stream": {
+      "module": "examples.demo.cli_demo",
+      "qualname": "_chat_stream",
+      "file_path": "/home/hc/Qwen3/examples/demo/cli_demo.py",
+      "line_start": 143,
+      "line_end": 166,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "examples.demo.cli_demo:main": {
+      "module": "examples.demo.cli_demo",
+      "qualname": "main",
+      "file_path": "/home/hc/Qwen3/examples/demo/cli_demo.py",
+      "line_start": 169,
+      "line_end": 293,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "examples.demo.web_demo:_get_args": {
+      "module": "examples.demo.web_demo",
+      "qualname": "_get_args",
+      "file_path": "/home/hc/Qwen3/examples/demo/web_demo.py",
+      "line_start": 18,
+      "line_end": 51,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "examples.demo.web_demo:_load_model_tokenizer": {
+      "module": "examples.demo.web_demo",
+      "qualname": "_load_model_tokenizer",
+      "file_path": "/home/hc/Qwen3/examples/demo/web_demo.py",
+      "line_start": 54,
+      "line_end": 73,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "examples.demo.web_demo:_chat_stream": {
+      "module": "examples.demo.web_demo",
+      "qualname": "_chat_stream",
+      "file_path": "/home/hc/Qwen3/examples/demo/web_demo.py",
+      "line_start": 76,
+      "line_end": 99,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "examples.demo.web_demo:_gc": {
+      "module": "examples.demo.web_demo",
+      "qualname": "_gc",
+      "file_path": "/home/hc/Qwen3/examples/demo/web_demo.py",
+      "line_start": 102,
+      "line_end": 107,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "examples.demo.web_demo:_launch_demo": {
+      "module": "examples.demo.web_demo",
+      "qualname": "_launch_demo",
+      "file_path": "/home/hc/Qwen3/examples/demo/web_demo.py",
+      "line_start": 110,
+      "line_end": 194,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "examples.demo.web_demo:main": {
+      "module": "examples.demo.web_demo",
+      "qualname": "main",
+      "file_path": "/home/hc/Qwen3/examples/demo/web_demo.py",
+      "line_start": 197,
+      "line_end": 202,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "examples.speed-benchmark.speed_benchmark_transformers:SpeedBenchmarkTransformers": {
+      "module": "examples.speed-benchmark.speed_benchmark_transformers",
+      "qualname": "SpeedBenchmarkTransformers",
+      "file_path": "/home/hc/Qwen3/examples/speed-benchmark/speed_benchmark_transformers.py",
+      "line_start": 19,
+      "line_end": 132,
+      "symbol_type": "class",
+      "class_name": "SpeedBenchmarkTransformers"
+    },
+    "examples.speed-benchmark.speed_benchmark_transformers:SpeedBenchmarkTransformers.__init__": {
+      "module": "examples.speed-benchmark.speed_benchmark_transformers",
+      "qualname": "SpeedBenchmarkTransformers.__init__",
+      "file_path": "/home/hc/Qwen3/examples/speed-benchmark/speed_benchmark_transformers.py",
+      "line_start": 30,
+      "line_end": 57,
+      "symbol_type": "method",
+      "class_name": "SpeedBenchmarkTransformers"
+    },
+    "examples.speed-benchmark.speed_benchmark_transformers:SpeedBenchmarkTransformers.run": {
+      "module": "examples.speed-benchmark.speed_benchmark_transformers",
+      "qualname": "SpeedBenchmarkTransformers.run",
+      "file_path": "/home/hc/Qwen3/examples/speed-benchmark/speed_benchmark_transformers.py",
+      "line_start": 59,
+      "line_end": 122,
+      "symbol_type": "method",
+      "class_name": "SpeedBenchmarkTransformers"
+    },
+    "examples.speed-benchmark.speed_benchmark_transformers:SpeedBenchmarkTransformers.save_result": {
+      "module": "examples.speed-benchmark.speed_benchmark_transformers",
+      "qualname": "SpeedBenchmarkTransformers.save_result",
+      "file_path": "/home/hc/Qwen3/examples/speed-benchmark/speed_benchmark_transformers.py",
+      "line_start": 125,
+      "line_end": 132,
+      "symbol_type": "method",
+      "class_name": "SpeedBenchmarkTransformers"
+    },
+    "examples.speed-benchmark.speed_benchmark_transformers:main": {
+      "module": "examples.speed-benchmark.speed_benchmark_transformers",
+      "qualname": "main",
+      "file_path": "/home/hc/Qwen3/examples/speed-benchmark/speed_benchmark_transformers.py",
+      "line_start": 135,
+      "line_end": 165,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "examples.speed-benchmark.speed_benchmark_vllm:SpeedBenchmarkVllm": {
+      "module": "examples.speed-benchmark.speed_benchmark_vllm",
+      "qualname": "SpeedBenchmarkVllm",
+      "file_path": "/home/hc/Qwen3/examples/speed-benchmark/speed_benchmark_vllm.py",
+      "line_start": 32,
+      "line_end": 184,
+      "symbol_type": "class",
+      "class_name": "SpeedBenchmarkVllm"
+    },
+    "examples.speed-benchmark.speed_benchmark_vllm:SpeedBenchmarkVllm.__init__": {
+      "module": "examples.speed-benchmark.speed_benchmark_vllm",
+      "qualname": "SpeedBenchmarkVllm.__init__",
+      "file_path": "/home/hc/Qwen3/examples/speed-benchmark/speed_benchmark_vllm.py",
+      "line_start": 38,
+      "line_end": 68,
+      "symbol_type": "method",
+      "class_name": "SpeedBenchmarkVllm"
+    },
+    "examples.speed-benchmark.speed_benchmark_vllm:SpeedBenchmarkVllm._reprs": {
+      "module": "examples.speed-benchmark.speed_benchmark_vllm",
+      "qualname": "SpeedBenchmarkVllm._reprs",
+      "file_path": "/home/hc/Qwen3/examples/speed-benchmark/speed_benchmark_vllm.py",
+      "line_start": 70,
+      "line_end": 71,
+      "symbol_type": "method",
+      "class_name": "SpeedBenchmarkVllm"
+    },
+    "examples.speed-benchmark.speed_benchmark_vllm:SpeedBenchmarkVllm.create_query": {
+      "module": "examples.speed-benchmark.speed_benchmark_vllm",
+      "qualname": "SpeedBenchmarkVllm.create_query",
+      "file_path": "/home/hc/Qwen3/examples/speed-benchmark/speed_benchmark_vllm.py",
+      "line_start": 73,
+      "line_end": 89,
+      "symbol_type": "method",
+      "class_name": "SpeedBenchmarkVllm"
+    },
+    "examples.speed-benchmark.speed_benchmark_vllm:SpeedBenchmarkVllm.run_infer": {
+      "module": "examples.speed-benchmark.speed_benchmark_vllm",
+      "qualname": "SpeedBenchmarkVllm.run_infer",
+      "file_path": "/home/hc/Qwen3/examples/speed-benchmark/speed_benchmark_vllm.py",
+      "line_start": 91,
+      "line_end": 99,
+      "symbol_type": "method",
+      "class_name": "SpeedBenchmarkVllm"
+    },
+    "examples.speed-benchmark.speed_benchmark_vllm:SpeedBenchmarkVllm.run": {
+      "module": "examples.speed-benchmark.speed_benchmark_vllm",
+      "qualname": "SpeedBenchmarkVllm.run",
+      "file_path": "/home/hc/Qwen3/examples/speed-benchmark/speed_benchmark_vllm.py",
+      "line_start": 101,
+      "line_end": 151,
+      "symbol_type": "method",
+      "class_name": "SpeedBenchmarkVllm"
+    },
+    "examples.speed-benchmark.speed_benchmark_vllm:SpeedBenchmarkVllm.collect_statistics": {
+      "module": "examples.speed-benchmark.speed_benchmark_vllm",
+      "qualname": "SpeedBenchmarkVllm.collect_statistics",
+      "file_path": "/home/hc/Qwen3/examples/speed-benchmark/speed_benchmark_vllm.py",
+      "line_start": 154,
+      "line_end": 169,
+      "symbol_type": "method",
+      "class_name": "SpeedBenchmarkVllm"
+    },
+    "examples.speed-benchmark.speed_benchmark_vllm:SpeedBenchmarkVllm.print_table": {
+      "module": "examples.speed-benchmark.speed_benchmark_vllm",
+      "qualname": "SpeedBenchmarkVllm.print_table",
+      "file_path": "/home/hc/Qwen3/examples/speed-benchmark/speed_benchmark_vllm.py",
+      "line_start": 172,
+      "line_end": 174,
+      "symbol_type": "method",
+      "class_name": "SpeedBenchmarkVllm"
+    },
+    "examples.speed-benchmark.speed_benchmark_vllm:SpeedBenchmarkVllm.save_result": {
+      "module": "examples.speed-benchmark.speed_benchmark_vllm",
+      "qualname": "SpeedBenchmarkVllm.save_result",
+      "file_path": "/home/hc/Qwen3/examples/speed-benchmark/speed_benchmark_vllm.py",
+      "line_start": 177,
+      "line_end": 184,
+      "symbol_type": "method",
+      "class_name": "SpeedBenchmarkVllm"
+    },
+    "examples.speed-benchmark.speed_benchmark_vllm:main": {
+      "module": "examples.speed-benchmark.speed_benchmark_vllm",
+      "qualname": "main",
+      "file_path": "/home/hc/Qwen3/examples/speed-benchmark/speed_benchmark_vllm.py",
+      "line_start": 187,
+      "line_end": 252,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "eval.generate_api_answers.utils_vllm:ClientError": {
+      "module": "eval.generate_api_answers.utils_vllm",
+      "qualname": "ClientError",
+      "file_path": "/home/hc/Qwen3/eval/generate_api_answers/utils_vllm.py",
+      "line_start": 16,
+      "line_end": 17,
+      "symbol_type": "class",
+      "class_name": "ClientError"
+    },
+    "eval.generate_api_answers.utils_vllm:get_content": {
+      "module": "eval.generate_api_answers.utils_vllm",
+      "qualname": "get_content",
+      "file_path": "/home/hc/Qwen3/eval/generate_api_answers/utils_vllm.py",
+      "line_start": 20,
+      "line_end": 89,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "eval.generate_api_answers.infer_multithread:count_completed_samples": {
+      "module": "eval.generate_api_answers.infer_multithread",
+      "qualname": "count_completed_samples",
+      "file_path": "/home/hc/Qwen3/eval/generate_api_answers/infer_multithread.py",
+      "line_start": 16,
+      "line_end": 28,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "eval.generate_api_answers.infer_multithread:process_item": {
+      "module": "eval.generate_api_answers.infer_multithread",
+      "qualname": "process_item",
+      "file_path": "/home/hc/Qwen3/eval/generate_api_answers/infer_multithread.py",
+      "line_start": 31,
+      "line_end": 64,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "eval.generate_api_answers.infer_multithread:main": {
+      "module": "eval.generate_api_answers.infer_multithread",
+      "qualname": "main",
+      "file_path": "/home/hc/Qwen3/eval/generate_api_answers/infer_multithread.py",
+      "line_start": 67,
+      "line_end": 181,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "eval.eval.eval:get_after_think": {
+      "module": "eval.eval.eval",
+      "qualname": "get_after_think",
+      "file_path": "/home/hc/Qwen3/eval/eval/eval.py",
+      "line_start": 12,
+      "line_end": 17,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "eval.eval.eval:main": {
+      "module": "eval.eval.eval",
+      "qualname": "main",
+      "file_path": "/home/hc/Qwen3/eval/eval/eval.py",
+      "line_start": 20,
+      "line_end": 83,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "eval.eval.arc_agi_1:parse_model_output": {
+      "module": "eval.eval.arc_agi_1",
+      "qualname": "parse_model_output",
+      "file_path": "/home/hc/Qwen3/eval/eval/arc_agi_1.py",
+      "line_start": 6,
+      "line_end": 27,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "eval.eval.arc_agi_1:solution_score": {
+      "module": "eval.eval.arc_agi_1",
+      "qualname": "solution_score",
+      "file_path": "/home/hc/Qwen3/eval/eval/arc_agi_1.py",
+      "line_start": 30,
+      "line_end": 33,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "eval.eval.arc_agi_1:compute_scores_arc_agi_1": {
+      "module": "eval.eval.arc_agi_1",
+      "qualname": "compute_scores_arc_agi_1",
+      "file_path": "/home/hc/Qwen3/eval/eval/arc_agi_1.py",
+      "line_start": 36,
+      "line_end": 53,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "eval.eval.arc_agi_1:save_cache": {
+      "module": "eval.eval.arc_agi_1",
+      "qualname": "save_cache",
+      "file_path": "/home/hc/Qwen3/eval/eval/arc_agi_1.py",
+      "line_start": 56,
+      "line_end": 60,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "docs.source.conf:MockedClassDocumenter": {
+      "module": "docs.source.conf",
+      "qualname": "MockedClassDocumenter",
+      "file_path": "/home/hc/Qwen3/docs/source/conf.py",
+      "line_start": 109,
+      "line_end": 115,
+      "symbol_type": "class",
+      "class_name": "MockedClassDocumenter"
+    },
+    "docs.source.conf:MockedClassDocumenter.add_line": {
+      "module": "docs.source.conf",
+      "qualname": "MockedClassDocumenter.add_line",
+      "file_path": "/home/hc/Qwen3/docs/source/conf.py",
+      "line_start": 112,
+      "line_end": 115,
+      "symbol_type": "method",
+      "class_name": "MockedClassDocumenter"
+    }
+  },
+  "call_edges": [
+    {
+      "caller_id": "examples.demo.cli_demo:main",
+      "callee_id": "examples.demo.cli_demo:_load_model_tokenizer",
+      "call_expr": "_load_model_tokenizer",
+      "file_path": "/home/hc/Qwen3/examples/demo/cli_demo.py",
+      "line": 188,
+      "resolved": true
+    },
+    {
+      "caller_id": "examples.demo.cli_demo:main",
+      "callee_id": "external:copy.deepcopy",
+      "call_expr": "deepcopy",
+      "file_path": "/home/hc/Qwen3/examples/demo/cli_demo.py",
+      "line": 189,
+      "resolved": true
+    },
+    {
+      "caller_id": "examples.demo.cli_demo:main",
+      "callee_id": "examples.demo.cli_demo:_setup_readline",
+      "call_expr": "_setup_readline",
+      "file_path": "/home/hc/Qwen3/examples/demo/cli_demo.py",
+      "line": 191,
+      "resolved": true
+    },
+    {
+      "caller_id": "examples.demo.cli_demo:main",
+      "callee_id": "examples.demo.cli_demo:_clear_screen",
+      "call_expr": "_clear_screen",
+      "file_path": "/home/hc/Qwen3/examples/demo/cli_demo.py",
+      "line": 193,
+      "resolved": true
+    },
+    {
+      "caller_id": "examples.demo.cli_demo:main",
+      "callee_id": "examples.demo.cli_demo:_get_input",
+      "call_expr": "_get_input",
+      "file_path": "/home/hc/Qwen3/examples/demo/cli_demo.py",
+      "line": 199,
+      "resolved": true
+    },
+    {
+      "caller_id": "examples.demo.cli_demo:main",
+      "callee_id": "external:transformers.trainer_utils.set_seed",
+      "call_expr": "set_seed",
+      "file_path": "/home/hc/Qwen3/examples/demo/cli_demo.py",
+      "line": 277,
+      "resolved": true
+    },
+    {
+      "caller_id": "examples.demo.cli_demo:main",
+      "callee_id": "examples.demo.cli_demo:_clear_screen",
+      "call_expr": "_clear_screen",
+      "file_path": "/home/hc/Qwen3/examples/demo/cli_demo.py",
+      "line": 278,
+      "resolved": true
+    },
+    {
+      "caller_id": "examples.demo.cli_demo:main",
+      "callee_id": "examples.demo.cli_demo:_chat_stream",
+      "call_expr": "_chat_stream",
+      "file_path": "/home/hc/Qwen3/examples/demo/cli_demo.py",
+      "line": 283,
+      "resolved": true
+    },
+    {
+      "caller_id": "examples.demo.cli_demo:main",
+      "callee_id": "examples.demo.cli_demo:_clear_screen",
+      "call_expr": "_clear_screen",
+      "file_path": "/home/hc/Qwen3/examples/demo/cli_demo.py",
+      "line": 212,
+      "resolved": true
+    },
+    {
+      "caller_id": "examples.demo.cli_demo:main",
+      "callee_id": "examples.demo.cli_demo:_gc",
+      "call_expr": "_gc",
+      "file_path": "/home/hc/Qwen3/examples/demo/cli_demo.py",
+      "line": 214,
+      "resolved": true
+    },
+    {
+      "caller_id": "examples.demo.cli_demo:main",
+      "callee_id": "examples.demo.cli_demo:_gc",
+      "call_expr": "_gc",
+      "file_path": "/home/hc/Qwen3/examples/demo/cli_demo.py",
+      "line": 219,
+      "resolved": true
+    },
+    {
+      "caller_id": "examples.demo.cli_demo:main",
+      "callee_id": "examples.demo.cli_demo:_print_history",
+      "call_expr": "_print_history",
+      "file_path": "/home/hc/Qwen3/examples/demo/cli_demo.py",
+      "line": 225,
+      "resolved": true
+    },
+    {
+      "caller_id": "examples.demo.cli_demo:main",
+      "callee_id": "external:copy.deepcopy",
+      "call_expr": "deepcopy",
+      "file_path": "/home/hc/Qwen3/examples/demo/cli_demo.py",
+      "line": 269,
+      "resolved": true
+    },
+    {
+      "caller_id": "examples.demo.cli_demo:_gc",
+      "callee_id": "external:torch.cuda.is_available",
+      "call_expr": "torch.cuda.is_available",
+      "file_path": "/home/hc/Qwen3/examples/demo/cli_demo.py",
+      "line": 109,
+      "resolved": true
+    },
+    {
+      "caller_id": "examples.demo.cli_demo:_gc",
+      "callee_id": "external:torch.cuda.empty_cache",
+      "call_expr": "torch.cuda.empty_cache",
+      "file_path": "/home/hc/Qwen3/examples/demo/cli_demo.py",
+      "line": 110,
+      "resolved": true
+    },
+    {
+      "caller_id": "examples.demo.cli_demo:_chat_stream",
+      "callee_id": "external:transformers.TextIteratorStreamer",
+      "call_expr": "TextIteratorStreamer",
+      "file_path": "/home/hc/Qwen3/examples/demo/cli_demo.py",
+      "line": 155,
+      "resolved": true
+    },
+    {
+      "caller_id": "examples.demo.cli_demo:_chat_stream",
+      "callee_id": "external:threading.Thread",
+      "call_expr": "Thread",
+      "file_path": "/home/hc/Qwen3/examples/demo/cli_demo.py",
+      "line": 162,
+      "resolved": true
+    }
+  ],
+  "class_edges": [],
+  "op_calls": [
+    {
+      "node_id": "examples.demo.cli_demo:_gc",
+      "op_name": "torch.cuda.is_available",
+      "call_expr": "torch.cuda.is_available",
+      "file_path": "/home/hc/Qwen3/examples/demo/cli_demo.py",
+      "line": 109,
+      "impl_path": "torch/cuda/*",
+      "mapper_note": "torch cuda runtime API (not ATen kernel)"
+    },
+    {
+      "node_id": "examples.demo.cli_demo:_gc",
+      "op_name": "torch.cuda.empty_cache",
+      "call_expr": "torch.cuda.empty_cache",
+      "file_path": "/home/hc/Qwen3/examples/demo/cli_demo.py",
+      "line": 110,
+      "impl_path": "torch/cuda/*",
+      "mapper_note": "torch cuda runtime API (not ATen kernel)"
+    },
+    {
+      "node_id": "examples.demo.cli_demo:_load_model_tokenizer",
+      "op_name": "transformers.AutoTokenizer.from_pretrained",
+      "call_expr": "AutoTokenizer.from_pretrained",
+      "file_path": "/home/hc/Qwen3/examples/demo/cli_demo.py",
+      "line": 84,
+      "impl_path": "unknown",
+      "mapper_note": "unsupported op namespace"
+    },
+    {
+      "node_id": "examples.demo.cli_demo:_load_model_tokenizer",
+      "op_name": "transformers.AutoModelForCausalLM.from_pretrained",
+      "call_expr": "AutoModelForCausalLM.from_pretrained",
+      "file_path": "/home/hc/Qwen3/examples/demo/cli_demo.py",
+      "line": 94,
+      "impl_path": "unknown",
+      "mapper_note": "unsupported op namespace"
+    }
+  ],
+  "call_chain_forest": [
+    {
+      "symbol_id": "examples.demo.cli_demo:main",
+      "qualname": "main",
+      "module": "examples.demo.cli_demo",
+      "file": "/home/hc/Qwen3/examples/demo/cli_demo.py",
+      "line_start": 169,
+      "symbol_type": "function",
+      "class_name": null,
+      "_is_op_chain_node": false,
+      "children": [
+        {
+          "via": "_gc @ L214 » torch.cuda.is_available @ L109",
+          "resolved": true,
+          "callee": {
+            "symbol_id": "external:torch.cuda.is_available",
+            "qualname": "external:torch.cuda.is_available",
+            "module": "",
+            "file": "",
+            "line_start": 0,
+            "_is_op_chain_node": true,
+            "children": []
+          }
+        },
+        {
+          "via": "_gc @ L214 » torch.cuda.empty_cache @ L110",
+          "resolved": true,
+          "callee": {
+            "symbol_id": "external:torch.cuda.empty_cache",
+            "qualname": "external:torch.cuda.empty_cache",
+            "module": "",
+            "file": "",
+            "line_start": 0,
+            "_is_op_chain_node": true,
+            "children": []
+          }
+        },
+        {
+          "via": "_gc @ L219 » torch.cuda.is_available @ L109",
+          "resolved": true,
+          "callee": {
+            "symbol_id": "external:torch.cuda.is_available",
+            "qualname": "external:torch.cuda.is_available",
+            "module": "",
+            "file": "",
+            "line_start": 0,
+            "_is_op_chain_node": true,
+            "children": []
+          }
+        },
+        {
+          "via": "_gc @ L219 » torch.cuda.empty_cache @ L110",
+          "resolved": true,
+          "callee": {
+            "symbol_id": "external:torch.cuda.empty_cache",
+            "qualname": "external:torch.cuda.empty_cache",
+            "module": "",
+            "file": "",
+            "line_start": 0,
+            "_is_op_chain_node": true,
+            "children": []
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+project_root: /home/hc/Qwen3
+readme_path: /home/hc/Qwen3/README.md
+
+entry_files:
+  - /home/hc/Qwen3/examples/demo/cli_demo.py
+
+include_globs:
+  - "*.py"
+
+exclude_dirs:
+  - .git
+  - __pycache__
+  - .venv
+  - venv
+  - .cursor
+
+analysis:
+  entry_mode: forward
+  forward_fallback: true
+
+  max_call_depth: 20
+  follow_external_imports: true
+  max_external_resolve: 200
+
+  chain_max_depth: 20
+  chain_max_branches: 64
+  print_call_chains: true
+
+  op_chain_only: true
+  op_chain_include_modules: []
+  op_chain_exclude_modules: []
+
+output:
+  path: /home/hc/llm_analyzer/outputs/qwen3_analysis.json
+

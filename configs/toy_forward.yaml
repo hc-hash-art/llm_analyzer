@@ -1,0 +1,34 @@
+project_root: /home/hc/llm_analyzer
+readme_path: /home/hc/llm_analyzer/README.md
+
+entry_files:
+  - /home/hc/llm_analyzer/fixtures/toy_forward_demo.py
+
+include_globs:
+  - "*.py"
+
+exclude_dirs:
+  - .git
+  - __pycache__
+  - .venv
+  - venv
+
+analysis:
+  entry_mode: forward
+  forward_fallback: false
+
+  max_call_depth: 12
+  follow_external_imports: true
+  max_external_resolve: 80
+
+  chain_max_depth: 12
+  chain_max_branches: 32
+  print_call_chains: true
+
+  op_chain_only: true
+  op_chain_include_modules: []
+  op_chain_exclude_modules: []
+
+output:
+  path: /home/hc/llm_analyzer/outputs/toy_forward_analysis.json
+

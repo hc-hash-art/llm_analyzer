@@ -1,0 +1,838 @@
+{
+  "entry_files": [
+    "/home/hc/llm_analyzer/fixtures/toy_forward_demo.py"
+  ],
+  "entry_mode": "forward",
+  "entry_symbol_ids": [
+    "fixtures.toy_forward_demo:Sub.forward",
+    "fixtures.toy_forward_demo:Toy.forward"
+  ],
+  "entry_fallback_used": false,
+  "op_chain_only": true,
+  "symbols": {
+    "fixtures.toy_forward_demo:Sub": {
+      "module": "fixtures.toy_forward_demo",
+      "qualname": "Sub",
+      "file_path": "/home/hc/llm_analyzer/fixtures/toy_forward_demo.py",
+      "line_start": 8,
+      "line_end": 10,
+      "symbol_type": "class",
+      "class_name": "Sub"
+    },
+    "fixtures.toy_forward_demo:Sub.forward": {
+      "module": "fixtures.toy_forward_demo",
+      "qualname": "Sub.forward",
+      "file_path": "/home/hc/llm_analyzer/fixtures/toy_forward_demo.py",
+      "line_start": 9,
+      "line_end": 10,
+      "symbol_type": "method",
+      "class_name": "Sub"
+    },
+    "fixtures.toy_forward_demo:Toy": {
+      "module": "fixtures.toy_forward_demo",
+      "qualname": "Toy",
+      "file_path": "/home/hc/llm_analyzer/fixtures/toy_forward_demo.py",
+      "line_start": 13,
+      "line_end": 22,
+      "symbol_type": "class",
+      "class_name": "Toy"
+    },
+    "fixtures.toy_forward_demo:Toy.__init__": {
+      "module": "fixtures.toy_forward_demo",
+      "qualname": "Toy.__init__",
+      "file_path": "/home/hc/llm_analyzer/fixtures/toy_forward_demo.py",
+      "line_start": 14,
+      "line_end": 17,
+      "symbol_type": "method",
+      "class_name": "Toy"
+    },
+    "fixtures.toy_forward_demo:Toy.forward": {
+      "module": "fixtures.toy_forward_demo",
+      "qualname": "Toy.forward",
+      "file_path": "/home/hc/llm_analyzer/fixtures/toy_forward_demo.py",
+      "line_start": 19,
+      "line_end": 22,
+      "symbol_type": "method",
+      "class_name": "Toy"
+    },
+    "tests.test_deps_resolver:TestDepsResolver": {
+      "module": "tests.test_deps_resolver",
+      "qualname": "TestDepsResolver",
+      "file_path": "/home/hc/llm_analyzer/tests/test_deps_resolver.py",
+      "line_start": 11,
+      "line_end": 39,
+      "symbol_type": "class",
+      "class_name": "TestDepsResolver"
+    },
+    "tests.test_deps_resolver:TestDepsResolver.test_parse_versions_from_requirements_text": {
+      "module": "tests.test_deps_resolver",
+      "qualname": "TestDepsResolver.test_parse_versions_from_requirements_text",
+      "file_path": "/home/hc/llm_analyzer/tests/test_deps_resolver.py",
+      "line_start": 12,
+      "line_end": 22,
+      "symbol_type": "method",
+      "class_name": "TestDepsResolver"
+    },
+    "tests.test_deps_resolver:TestDepsResolver.test_priority_requirements_over_readme": {
+      "module": "tests.test_deps_resolver",
+      "qualname": "TestDepsResolver.test_priority_requirements_over_readme",
+      "file_path": "/home/hc/llm_analyzer/tests/test_deps_resolver.py",
+      "line_start": 24,
+      "line_end": 39,
+      "symbol_type": "method",
+      "class_name": "TestDepsResolver"
+    },
+    "src.model_kernel_analyzer.op_extractor:extract_operator_calls": {
+      "module": "src.model_kernel_analyzer.op_extractor",
+      "qualname": "extract_operator_calls",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/op_extractor.py",
+      "line_start": 10,
+      "line_end": 44,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.op_extractor:_find_def_node": {
+      "module": "src.model_kernel_analyzer.op_extractor",
+      "qualname": "_find_def_node",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/op_extractor.py",
+      "line_start": 47,
+      "line_end": 59,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.op_extractor:_find_enclosing_class": {
+      "module": "src.model_kernel_analyzer.op_extractor",
+      "qualname": "_find_enclosing_class",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/op_extractor.py",
+      "line_start": 62,
+      "line_end": 66,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.op_extractor:_attr_path": {
+      "module": "src.model_kernel_analyzer.op_extractor",
+      "qualname": "_attr_path",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/op_extractor.py",
+      "line_start": 69,
+      "line_end": 77,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.op_extractor:_to_op_name": {
+      "module": "src.model_kernel_analyzer.op_extractor",
+      "qualname": "_to_op_name",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/op_extractor.py",
+      "line_start": 80,
+      "line_end": 108,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.op_extractor:_to_op_name_from_from_imports": {
+      "module": "src.model_kernel_analyzer.op_extractor",
+      "qualname": "_to_op_name_from_from_imports",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/op_extractor.py",
+      "line_start": 111,
+      "line_end": 121,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.op_chain_filter:_norm_top": {
+      "module": "src.model_kernel_analyzer.op_chain_filter",
+      "qualname": "_norm_top",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/op_chain_filter.py",
+      "line_start": 42,
+      "line_end": 43,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.op_chain_filter:_module_matches_prefix": {
+      "module": "src.model_kernel_analyzer.op_chain_filter",
+      "qualname": "_module_matches_prefix",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/op_chain_filter.py",
+      "line_start": 46,
+      "line_end": 52,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.op_chain_filter:is_op_chain_node": {
+      "module": "src.model_kernel_analyzer.op_chain_filter",
+      "qualname": "is_op_chain_node",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/op_chain_filter.py",
+      "line_start": 55,
+      "line_end": 107,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.cli:main": {
+      "module": "src.model_kernel_analyzer.cli",
+      "qualname": "main",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/cli.py",
+      "line_start": 12,
+      "line_end": 72,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.entry_discovery:discover_entry_files": {
+      "module": "src.model_kernel_analyzer.entry_discovery",
+      "qualname": "discover_entry_files",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/entry_discovery.py",
+      "line_start": 13,
+      "line_end": 30,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.types:SymbolRef": {
+      "module": "src.model_kernel_analyzer.types",
+      "qualname": "SymbolRef",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/types.py",
+      "line_start": 8,
+      "line_end": 15,
+      "symbol_type": "class",
+      "class_name": "SymbolRef"
+    },
+    "src.model_kernel_analyzer.types:CallEdge": {
+      "module": "src.model_kernel_analyzer.types",
+      "qualname": "CallEdge",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/types.py",
+      "line_start": 19,
+      "line_end": 25,
+      "symbol_type": "class",
+      "class_name": "CallEdge"
+    },
+    "src.model_kernel_analyzer.types:ClassEdge": {
+      "module": "src.model_kernel_analyzer.types",
+      "qualname": "ClassEdge",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/types.py",
+      "line_start": 29,
+      "line_end": 34,
+      "symbol_type": "class",
+      "class_name": "ClassEdge"
+    },
+    "src.model_kernel_analyzer.types:OpCall": {
+      "module": "src.model_kernel_analyzer.types",
+      "qualname": "OpCall",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/types.py",
+      "line_start": 38,
+      "line_end": 45,
+      "symbol_type": "class",
+      "class_name": "OpCall"
+    },
+    "src.model_kernel_analyzer.types:AnalysisResult": {
+      "module": "src.model_kernel_analyzer.types",
+      "qualname": "AnalysisResult",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/types.py",
+      "line_start": 49,
+      "line_end": 76,
+      "symbol_type": "class",
+      "class_name": "AnalysisResult"
+    },
+    "src.model_kernel_analyzer.types:AnalysisResult.to_dict": {
+      "module": "src.model_kernel_analyzer.types",
+      "qualname": "AnalysisResult.to_dict",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/types.py",
+      "line_start": 64,
+      "line_end": 76,
+      "symbol_type": "method",
+      "class_name": "AnalysisResult"
+    },
+    "src.model_kernel_analyzer.project_index:_iter_py_files": {
+      "module": "src.model_kernel_analyzer.project_index",
+      "qualname": "_iter_py_files",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/project_index.py",
+      "line_start": 11,
+      "line_end": 18,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.project_index:_module_name_for": {
+      "module": "src.model_kernel_analyzer.project_index",
+      "qualname": "_module_name_for",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/project_index.py",
+      "line_start": 21,
+      "line_end": 29,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.project_index:FileIndex": {
+      "module": "src.model_kernel_analyzer.project_index",
+      "qualname": "FileIndex",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/project_index.py",
+      "line_start": 33,
+      "line_end": 39,
+      "symbol_type": "class",
+      "class_name": "FileIndex"
+    },
+    "src.model_kernel_analyzer.project_index:ProjectIndex": {
+      "module": "src.model_kernel_analyzer.project_index",
+      "qualname": "ProjectIndex",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/project_index.py",
+      "line_start": 43,
+      "line_end": 57,
+      "symbol_type": "class",
+      "class_name": "ProjectIndex"
+    },
+    "src.model_kernel_analyzer.project_index:ProjectIndex.resolve_symbol": {
+      "module": "src.model_kernel_analyzer.project_index",
+      "qualname": "ProjectIndex.resolve_symbol",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/project_index.py",
+      "line_start": 49,
+      "line_end": 57,
+      "symbol_type": "method",
+      "class_name": "ProjectIndex"
+    },
+    "src.model_kernel_analyzer.project_index:build_project_index": {
+      "module": "src.model_kernel_analyzer.project_index",
+      "qualname": "build_project_index",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/project_index.py",
+      "line_start": 60,
+      "line_end": 64,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.project_index:build_project_index_multi": {
+      "module": "src.model_kernel_analyzer.project_index",
+      "qualname": "build_project_index_multi",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/project_index.py",
+      "line_start": 67,
+      "line_end": 97,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.project_index:_collect_imports": {
+      "module": "src.model_kernel_analyzer.project_index",
+      "qualname": "_collect_imports",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/project_index.py",
+      "line_start": 100,
+      "line_end": 111,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.project_index:_collect_symbols": {
+      "module": "src.model_kernel_analyzer.project_index",
+      "qualname": "_collect_symbols",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/project_index.py",
+      "line_start": 114,
+      "line_end": 174,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.pipeline:run_pipeline": {
+      "module": "src.model_kernel_analyzer.pipeline",
+      "qualname": "run_pipeline",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/pipeline.py",
+      "line_start": 19,
+      "line_end": 83,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.pipeline:dump_result": {
+      "module": "src.model_kernel_analyzer.pipeline",
+      "qualname": "dump_result",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/pipeline.py",
+      "line_start": 86,
+      "line_end": 88,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.call_graph:GraphBuildOutput": {
+      "module": "src.model_kernel_analyzer.call_graph",
+      "qualname": "GraphBuildOutput",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/call_graph.py",
+      "line_start": 13,
+      "line_end": 19,
+      "symbol_type": "class",
+      "class_name": "GraphBuildOutput"
+    },
+    "src.model_kernel_analyzer.call_graph:build_call_and_class_graph": {
+      "module": "src.model_kernel_analyzer.call_graph",
+      "qualname": "build_call_and_class_graph",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/call_graph.py",
+      "line_start": 22,
+      "line_end": 112,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.call_graph:_select_entry_nodes": {
+      "module": "src.model_kernel_analyzer.call_graph",
+      "qualname": "_select_entry_nodes",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/call_graph.py",
+      "line_start": 115,
+      "line_end": 135,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.call_graph:_entry_nodes_forward_only": {
+      "module": "src.model_kernel_analyzer.call_graph",
+      "qualname": "_entry_nodes_forward_only",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/call_graph.py",
+      "line_start": 138,
+      "line_end": 157,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.call_graph:_entry_nodes_all": {
+      "module": "src.model_kernel_analyzer.call_graph",
+      "qualname": "_entry_nodes_all",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/call_graph.py",
+      "line_start": 160,
+      "line_end": 173,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.call_graph:_find_def_node": {
+      "module": "src.model_kernel_analyzer.call_graph",
+      "qualname": "_find_def_node",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/call_graph.py",
+      "line_start": 176,
+      "line_end": 192,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.call_graph:_find_enclosing_class": {
+      "module": "src.model_kernel_analyzer.call_graph",
+      "qualname": "_find_enclosing_class",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/call_graph.py",
+      "line_start": 195,
+      "line_end": 199,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.call_graph:_iter_calls": {
+      "module": "src.model_kernel_analyzer.call_graph",
+      "qualname": "_iter_calls",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/call_graph.py",
+      "line_start": 202,
+      "line_end": 213,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.call_graph:_attr_path": {
+      "module": "src.model_kernel_analyzer.call_graph",
+      "qualname": "_attr_path",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/call_graph.py",
+      "line_start": 216,
+      "line_end": 224,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.call_graph:_fq_from_call": {
+      "module": "src.model_kernel_analyzer.call_graph",
+      "qualname": "_fq_from_call",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/call_graph.py",
+      "line_start": 227,
+      "line_end": 242,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.call_graph:_collect_self_assignments": {
+      "module": "src.model_kernel_analyzer.call_graph",
+      "qualname": "_collect_self_assignments",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/call_graph.py",
+      "line_start": 245,
+      "line_end": 260,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.call_graph:_collect_local_var_types": {
+      "module": "src.model_kernel_analyzer.call_graph",
+      "qualname": "_collect_local_var_types",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/call_graph.py",
+      "line_start": 263,
+      "line_end": 273,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.call_graph:_resolve_call_target": {
+      "module": "src.model_kernel_analyzer.call_graph",
+      "qualname": "_resolve_call_target",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/call_graph.py",
+      "line_start": 276,
+      "line_end": 330,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.call_graph:_resolve_external_symbol": {
+      "module": "src.model_kernel_analyzer.call_graph",
+      "qualname": "_resolve_external_symbol",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/call_graph.py",
+      "line_start": 333,
+      "line_end": 355,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.call_graph:_build_class_field_type_map": {
+      "module": "src.model_kernel_analyzer.call_graph",
+      "qualname": "_build_class_field_type_map",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/call_graph.py",
+      "line_start": 358,
+      "line_end": 375,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.setup_env:main": {
+      "module": "src.model_kernel_analyzer.setup_env",
+      "qualname": "main",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/setup_env.py",
+      "line_start": 10,
+      "line_end": 75,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.deps_resolver:DepSpec": {
+      "module": "src.model_kernel_analyzer.deps_resolver",
+      "qualname": "DepSpec",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/deps_resolver.py",
+      "line_start": 13,
+      "line_end": 16,
+      "symbol_type": "class",
+      "class_name": "DepSpec"
+    },
+    "src.model_kernel_analyzer.deps_resolver:_read_text_if_exists": {
+      "module": "src.model_kernel_analyzer.deps_resolver",
+      "qualname": "_read_text_if_exists",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/deps_resolver.py",
+      "line_start": 23,
+      "line_end": 26,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.deps_resolver:parse_dep_specs_from_text": {
+      "module": "src.model_kernel_analyzer.deps_resolver",
+      "qualname": "parse_dep_specs_from_text",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/deps_resolver.py",
+      "line_start": 35,
+      "line_end": 59,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.deps_resolver:parse_dep_specs_from_files": {
+      "module": "src.model_kernel_analyzer.deps_resolver",
+      "qualname": "parse_dep_specs_from_files",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/deps_resolver.py",
+      "line_start": 62,
+      "line_end": 92,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.deps_resolver:resolve_or_fallback_specs": {
+      "module": "src.model_kernel_analyzer.deps_resolver",
+      "qualname": "resolve_or_fallback_specs",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/deps_resolver.py",
+      "line_start": 95,
+      "line_end": 124,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.deps_resolver:_run": {
+      "module": "src.model_kernel_analyzer.deps_resolver",
+      "qualname": "_run",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/deps_resolver.py",
+      "line_start": 127,
+      "line_end": 128,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.deps_resolver:ensure_venv": {
+      "module": "src.model_kernel_analyzer.deps_resolver",
+      "qualname": "ensure_venv",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/deps_resolver.py",
+      "line_start": 131,
+      "line_end": 135,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.deps_resolver:venv_python": {
+      "module": "src.model_kernel_analyzer.deps_resolver",
+      "qualname": "venv_python",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/deps_resolver.py",
+      "line_start": 138,
+      "line_end": 140,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.deps_resolver:venv_pip": {
+      "module": "src.model_kernel_analyzer.deps_resolver",
+      "qualname": "venv_pip",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/deps_resolver.py",
+      "line_start": 143,
+      "line_end": 145,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.deps_resolver:install_deps": {
+      "module": "src.model_kernel_analyzer.deps_resolver",
+      "qualname": "install_deps",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/deps_resolver.py",
+      "line_start": 148,
+      "line_end": 173,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.deps_resolver:get_import_file": {
+      "module": "src.model_kernel_analyzer.deps_resolver",
+      "qualname": "get_import_file",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/deps_resolver.py",
+      "line_start": 176,
+      "line_end": 190,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.deps_resolver:setup_deps_and_run_analyze": {
+      "module": "src.model_kernel_analyzer.deps_resolver",
+      "qualname": "setup_deps_and_run_analyze",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/deps_resolver.py",
+      "line_start": 193,
+      "line_end": 268,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.config:AnalysisConfig": {
+      "module": "src.model_kernel_analyzer.config",
+      "qualname": "AnalysisConfig",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/config.py",
+      "line_start": 11,
+      "line_end": 62,
+      "symbol_type": "class",
+      "class_name": "AnalysisConfig"
+    },
+    "src.model_kernel_analyzer.config:AnalysisConfig.from_file": {
+      "module": "src.model_kernel_analyzer.config",
+      "qualname": "AnalysisConfig.from_file",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/config.py",
+      "line_start": 37,
+      "line_end": 62,
+      "symbol_type": "method",
+      "class_name": "AnalysisConfig"
+    },
+    "src.model_kernel_analyzer.kernel_mapper:map_ops_to_impl_paths": {
+      "module": "src.model_kernel_analyzer.kernel_mapper",
+      "qualname": "map_ops_to_impl_paths",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/kernel_mapper.py",
+      "line_start": 33,
+      "line_end": 37,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.kernel_mapper:_map_single": {
+      "module": "src.model_kernel_analyzer.kernel_mapper",
+      "qualname": "_map_single",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/kernel_mapper.py",
+      "line_start": 40,
+      "line_end": 83,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.kernel_mapper:_aten_impl_guess": {
+      "module": "src.model_kernel_analyzer.kernel_mapper",
+      "qualname": "_aten_impl_guess",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/kernel_mapper.py",
+      "line_start": 86,
+      "line_end": 89,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.call_chain:build_outgoing_edges": {
+      "module": "src.model_kernel_analyzer.call_chain",
+      "qualname": "build_outgoing_edges",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/call_chain.py",
+      "line_start": 10,
+      "line_end": 22,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.call_chain:build_call_chain_forest": {
+      "module": "src.model_kernel_analyzer.call_chain",
+      "qualname": "build_call_chain_forest",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/call_chain.py",
+      "line_start": 25,
+      "line_end": 57,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.call_chain:_node_summary": {
+      "module": "src.model_kernel_analyzer.call_chain",
+      "qualname": "_node_summary",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/call_chain.py",
+      "line_start": 60,
+      "line_end": 72,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.call_chain:_expand_node": {
+      "module": "src.model_kernel_analyzer.call_chain",
+      "qualname": "_expand_node",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/call_chain.py",
+      "line_start": 75,
+      "line_end": 173,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.call_chain:_transparent_lift": {
+      "module": "src.model_kernel_analyzer.call_chain",
+      "qualname": "_transparent_lift",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/call_chain.py",
+      "line_start": 176,
+      "line_end": 258,
+      "symbol_type": "function",
+      "class_name": null
+    },
+    "src.model_kernel_analyzer.call_chain:format_call_forest_text": {
+      "module": "src.model_kernel_analyzer.call_chain",
+      "qualname": "format_call_forest_text",
+      "file_path": "/home/hc/llm_analyzer/src/model_kernel_analyzer/call_chain.py",
+      "line_start": 261,
+      "line_end": 298,
+      "symbol_type": "function",
+      "class_name": null
+    }
+  },
+  "call_edges": [
+    {
+      "caller_id": "fixtures.toy_forward_demo:Toy.forward",
+      "callee_id": "external:torch.nn.Linear.forward",
+      "call_expr": "self.lin",
+      "file_path": "/home/hc/llm_analyzer/fixtures/toy_forward_demo.py",
+      "line": 20,
+      "resolved": true
+    },
+    {
+      "caller_id": "fixtures.toy_forward_demo:Toy.forward",
+      "callee_id": "fixtures.toy_forward_demo:Sub.forward",
+      "call_expr": "self.sub",
+      "file_path": "/home/hc/llm_analyzer/fixtures/toy_forward_demo.py",
+      "line": 21,
+      "resolved": true
+    },
+    {
+      "caller_id": "fixtures.toy_forward_demo:Toy.forward",
+      "callee_id": "external:torch.softmax",
+      "call_expr": "torch.softmax",
+      "file_path": "/home/hc/llm_analyzer/fixtures/toy_forward_demo.py",
+      "line": 22,
+      "resolved": true
+    },
+    {
+      "caller_id": "fixtures.toy_forward_demo:Sub.forward",
+      "callee_id": "external:torch.nn.functional.relu",
+      "call_expr": "F.relu",
+      "file_path": "/home/hc/llm_analyzer/fixtures/toy_forward_demo.py",
+      "line": 10,
+      "resolved": true
+    }
+  ],
+  "class_edges": [],
+  "op_calls": [
+    {
+      "node_id": "fixtures.toy_forward_demo:Toy.forward",
+      "op_name": "torch.softmax",
+      "call_expr": "torch.softmax",
+      "file_path": "/home/hc/llm_analyzer/fixtures/toy_forward_demo.py",
+      "line": 22,
+      "impl_path": "aten/src/ATen/native/SoftMax.cpp",
+      "mapper_note": "likely dispatched to ATen native kernels"
+    },
+    {
+      "node_id": "fixtures.toy_forward_demo:Sub.forward",
+      "op_name": "torch.nn.functional.relu",
+      "call_expr": "F.relu",
+      "file_path": "/home/hc/llm_analyzer/fixtures/toy_forward_demo.py",
+      "line": 10,
+      "impl_path": "/home/hc/miniforge3/lib/python3.13/site-packages/torch/nn/functional.py",
+      "mapper_note": "python functional source"
+    }
+  ],
+  "call_chain_forest": [
+    {
+      "symbol_id": "fixtures.toy_forward_demo:Sub.forward",
+      "qualname": "Sub.forward",
+      "module": "fixtures.toy_forward_demo",
+      "file": "/home/hc/llm_analyzer/fixtures/toy_forward_demo.py",
+      "line_start": 9,
+      "symbol_type": "method",
+      "class_name": "Sub",
+      "_is_op_chain_node": true,
+      "children": [
+        {
+          "via": "F.relu @ L10",
+          "resolved": true,
+          "callee": {
+            "symbol_id": "external:torch.nn.functional.relu",
+            "qualname": "external:torch.nn.functional.relu",
+            "module": "",
+            "file": "",
+            "line_start": 0,
+            "_is_op_chain_node": true,
+            "children": []
+          }
+        }
+      ]
+    },
+    {
+      "symbol_id": "fixtures.toy_forward_demo:Toy.forward",
+      "qualname": "Toy.forward",
+      "module": "fixtures.toy_forward_demo",
+      "file": "/home/hc/llm_analyzer/fixtures/toy_forward_demo.py",
+      "line_start": 19,
+      "symbol_type": "method",
+      "class_name": "Toy",
+      "_is_op_chain_node": true,
+      "children": [
+        {
+          "via": "self.lin @ L20",
+          "resolved": true,
+          "callee": {
+            "symbol_id": "external:torch.nn.Linear.forward",
+            "qualname": "external:torch.nn.Linear.forward",
+            "module": "",
+            "file": "",
+            "line_start": 0,
+            "_is_op_chain_node": true,
+            "children": []
+          }
+        },
+        {
+          "via": "self.sub @ L21",
+          "resolved": true,
+          "callee": {
+            "symbol_id": "fixtures.toy_forward_demo:Sub.forward",
+            "qualname": "Sub.forward",
+            "module": "fixtures.toy_forward_demo",
+            "file": "/home/hc/llm_analyzer/fixtures/toy_forward_demo.py",
+            "line_start": 9,
+            "symbol_type": "method",
+            "class_name": "Sub",
+            "_is_op_chain_node": true,
+            "children": [
+              {
+                "via": "F.relu @ L10",
+                "resolved": true,
+                "callee": {
+                  "symbol_id": "external:torch.nn.functional.relu",
+                  "qualname": "external:torch.nn.functional.relu",
+                  "module": "",
+                  "file": "",
+                  "line_start": 0,
+                  "_is_op_chain_node": true,
+                  "children": []
+                }
+              }
+            ]
+          }
+        },
+        {
+          "via": "torch.softmax @ L22",
+          "resolved": true,
+          "callee": {
+            "symbol_id": "external:torch.softmax",
+            "qualname": "external:torch.softmax",
+            "module": "",
+            "file": "",
+            "line_start": 0,
+            "_is_op_chain_node": true,
+            "children": []
+          }
+        }
+      ]
+    }
+  ]
+}
